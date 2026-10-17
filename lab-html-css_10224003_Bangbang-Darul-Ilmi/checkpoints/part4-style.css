@@ -1,0 +1,132 @@
+/* 1. Type selector: mengatur seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f6f9;
+}
+
+/* 2. Grouping selector: mengatur beberapa elemen sekaligus */
+h1,
+h2,
+h3 {
+    color: #003366;
+}
+
+/* 3. Class selector: mengatur header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Class selector: mengatur subjudul */
+.tagline {
+    font-size: 18px;
+    color: white;
+}
+
+/* 4. Descendant selector: mengatur daftar navigasi */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+/* 5. ID selector: memberi jarak pada bagian utama */
+#about {
+    margin-top: 24px;
+}
+
+/* 6. Section sebagai kartu */
+section {
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/* Tabel program studi */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+/* Gambar responsif */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Formulir kontak */
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font: inherit;
+}
+
+form button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00509e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 16px;
+}

@@ -1,0 +1,55 @@
+/* 1. Semua h2 berwarna navy */
+h2 {
+    color: navy;
+}
+
+/* 2. Semua elemen dengan class note memiliki background kuning */
+.note {
+    background-color: yellow;
+}
+
+/* 3. Hanya klub featured yang memiliki border */
+.club.featured {
+    border: 2px solid;
+}
+
+/* 4. Hanya note yang berupa paragraf dibuat miring */
+p.note {
+    font-style: italic;
+}
+
+/* 5. Paragraf di dalam section memiliki line-height 1.6 */
+section p {
+    line-height: 1.6;
+}
+
+/* 6. h1 dan tagline menggunakan Georgia */
+h1,
+.tagline {
+    font-family: Georgia, serif;
+}
+
+/* 7. Link di dalam nav tidak bergaris bawah */
+nav a {
+    text-decoration: none;
+}
+
+/* 8. Garis bawah muncul kembali saat link di-hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 9. Link eksternal yang membuka tab baru berwarna merah */
+a[target="_blank"] {
+    color: red;
+}
+
+/* 10. Item list pertama dicetak tebal */
+li:first-child {
+    font-weight: bold;
+}
+
+/* 11. Header memiliki background abu-abu muda */
+#top {
+    background-color: lightgray;
+}
